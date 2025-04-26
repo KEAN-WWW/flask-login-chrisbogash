@@ -4,4 +4,8 @@
 {% block content %}
     <h2>Dashboard</h2>
     {{ name }}
+<nav>
+    <a href="{{ url_for('authentication.logout') }}">Logout</a>
+</nav>
+
 {% endblock %}
